@@ -119,17 +119,17 @@ export default function Hackathons() {
           {/* Falling Text for Desktop */}
           <div className="hidden md:block">
             <FallingText
-              text={`As a web and mobile developer, I focus on building creative digital experiences. Whether it's crafting responsive websites, mobile interfaces, or experimental UI animations, I enjoy turning ideas into functional and aesthetic solutions.`}
+              text={`Sebagai pengembang web dan seluler, saya fokus membangun pengalaman digital yang kreatif. Baik itu membuat situs web responsif, antarmuka seluler, maupun animasi UI eksperimental, saya senang mengubah ide menjadi solusi fungsional dan estetis.`}
               highlightWords={[
                 'web',
-                'mobile',
-                'developer',
+                'seluler',
+                'pengembang',
                 'digital',
-                'responsive',
-                'interfaces',
+                'responsif',
+                'antarmuka',
                 'UI',
-                'aesthetic',
-                'solutions',
+                'estetika',
+                'solusi',
               ]}
               trigger="hover"
               backgroundColor="transparent"
@@ -145,13 +145,13 @@ export default function Hackathons() {
             {' '}
             {/* Changed mb-25 to mb-10 for smaller mobile margin */}
             <FallingText
-              text={`Besides being a developer and content creator, I enjoy working on side projects and exploring creative ideas through technology. It's a great way to keep learning, solve real-world problems, and connect with others who share the same passion. Here are some of the projects I've worked on:`}
+              text={`Selain menjadi pengembang dan kreator konten, saya senang mengerjakan proyek sampingan dan mengeksplorasi ide-ide kreatif melalui teknologi. Ini adalah cara yang bagus untuk terus belajar, memecahkan masalah dunia nyata, dan terhubung dengan orang lain yang memiliki minat yang sama. Berikut beberapa proyek yang pernah saya kerjakan:`}
               highlightWords={[
-                'side projects',
-                'creative',
-                'problems',
-                'passion',
-                'projects',
+                'proyek sampingan',
+                'kreatif',
+                'masalah',
+                'gairah',
+                'proyek',
               ]}
               trigger="hover"
               backgroundColor="transparent"
@@ -165,7 +165,7 @@ export default function Hackathons() {
           {/* Adjusted margin top for responsiveness */}
           <div className="mt-20 md:mt-40">
             <TextPressure
-              text="My Projects"
+              text="Proyek Saya"
               flex={true}
               alpha={false}
               stroke={false}
