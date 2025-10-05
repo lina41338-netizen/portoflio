@@ -12,7 +12,7 @@ const projects = [
     ],
 
     imageSrc: '/proj/projectOne.svg',
-    link: 'https://hannz45.github.io/Weather-App/',
+    link: 'https://hanbii-rubii.github.io/Weather-App/',
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const projects = [
       '/techstack/tailwind.svg',
     ],
     imageSrc: '/proj/projectTwo.svg',
-    link: 'https://hannz45.github.io/hanbii-Tipografi/',
+    link: 'https://hanbii-rubii.github.io/hanbii-Tipografi/',
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const projects = [
     techstack: ['/techstack/tailwind.svg',
       '/techstack/javascript.svg'],
     imageSrc: '/proj/projectThree.svg',
-    link: 'https://hannz45.github.io/Rendem_voucer/',
+    link: 'https://hanbii-rubii.github.io/Rendem_voucer/',
   },
   // {
   //   id: 4,
