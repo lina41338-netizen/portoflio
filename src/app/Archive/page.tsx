@@ -18,48 +18,47 @@ const handleAnimationComplete = () => {
 const hackathonEntriesData = [
   {
     entryNumber: '01',
-    title: 'Campus Bridge',
+    title: 'Weather App',
     // award: '3rd Place',
     description:
-      'CampusBridge is a React Native-based mobile application designed to simplify the thesis guidance process between students and lecturers. This application is equipped with real-time chat features, video call consultations, guidance scheduling, and efficient thesis progress monitoring.This project utilizes Stream as the main infrastructure for communication, as well as various modern tools to build responsive and high-performance UIs.',
+      'Aplikasi cuaca (weather app) adalah sebuah program perangkat lunak di ponsel pintar, Tujuan utama dari aplikasi cuaca adalah untuk membantu pengguna merencanakan aktivitas sehari-hari—mulai dari memilih pakaian yang tepat, menjadwalkan acara di luar ruangan, hingga memberikan peringatan dini terhadap kondisi cuaca ekstrem seperti badai atau gelombang panas.',
     imageSrc: '/proj/projectOne.svg', // Replace with the actual image path
-    projectLink: 'https://github.com/dimasdekka/CampusBridge', // <-- Add the link for Procrash
+    projectLink: 'https://hanbii-rubii.github.io/Weather-App/', // <-- Add the link for Procrash
     trophyType: 'third', // Specify the trophy type
     techStackIcons: [
       // <-- Add paths to tech stack icons for Procrash
-      '/techstack/flutterflow.svg',
-      '/techstack/gemini.svg',
+      '/techstack/javascript.svg',
     ],
   },
   {
     entryNumber: '02',
-    title: 'Unimovie',
+    title: 'Generator tipografi',
     // award: 'Special Award',
     description:
-      'Unimovie is a modern, React-based web application designed to provide users with a seamless and engaging movie discovery experience. Built with performance and user experience in mind, Unimovie allows users to search for movies, browse trending titles, and view detailed information such as synopses, ratings, release dates, and cast members — all in a clean, responsive interface.',
+      'Generator tipografi (typography generator) adalah alat bantu, yang berfungsi untuk membantu desainer dan developer membuat serta menguji coba kombinasi font dan tata letak teks agar terlihat serasi dan mudah dibaca.',
     imageSrc: '/proj/projectTwo.svg', // Replace with the actual image path
-    projectLink: 'https://github.com/dimasdekka/UniMovie-React-Movie-App', // <-- Add the link for Talento
+    projectLink: 'https://hanbii-rubii.github.io/hanbii-Tipografi/', // <-- Add the link for Talento
     trophyType: 'special', // Specify the trophy type
     techStackIcons: [
       // <-- Add paths to tech stack icons for Talento
       '/techstack/javascript.svg',
-      '/techstack/css.svg',
+      '/techstack/tailwind.svg',
     ],
   },
   {
     entryNumber: '03',
-    title: 'Dalleys Voucher',
+    title: 'Rendem Voucer',
     // award: '4th Place',
     description:
-      'Scan your voucher, to get free room. This dalleys voucher uses QR Code or code of voucher to activate voucher, analyze habits, guide your budget towards goals, and reward smart money decisions. Dalleys makes understanding your finances instant and engaging.',
+      'Redeem voucher (atau tebus voucer) adalah tindakan menggunakan atau menukarkan sebuah voucer yang berisi kode unik untuk mendapatkan manfaat tertentu, seperti diskon, barang gratis, atau keuntungan lainnya.',
     imageSrc: '/proj/projectThree.svg', // Replace with the actual image path
-    projectLink: 'https://github.com/dimasdekka/CafeDalleyVoucher', // <-- Add the link for KachingKo
+    projectLink: 'https://hanbii-rubii.github.io/Rendem_voucer/', // <-- Add the link for KachingKo
     trophyType: 'participant', // Specify the trophy type (using participant as a placeholder for 4th)
     techStackIcons: [
       // <-- Add paths to tech stack icons for KachingKo
-      '/techstack/nextjs.svg',
       '/techstack/tailwind.svg',
-      '/techstack/gemini.svg',
+      '/techstack/javascript.svg',
+
     ],
   },
 ];
@@ -198,7 +197,7 @@ export default function Hackathons() {
       {/* Footer Section */}
       <footer className="flex w-full items-center justify-center p-4 border-t border-white/[.15] text-white/50 text-sm font-light mt-20">
         <p>
-          &copy; {new Date().getFullYear()} Dimas Dekananta. All rights
+          &copy; {new Date().getFullYear()} Rubii. All rights
           reserved.
         </p>
       </footer>
