@@ -267,7 +267,7 @@ dan pengembangan sambil berjalanya waktu. {/* Updated description */}
             className="md:text-7xl text-3xl font-extrabold"
           />
         </div>
-        <GitHubCalendar username="Hannz45" />
+        <GitHubCalendar username="Hanbii-Rubii" />
         {/* Projects Section Start */}
         {/* Modified this div to use a grid layout for two columns */}
         <div className="grid grid-cols-1 md:grid-cols-3 w-full max-w-[1400px] mx-auto mt-10">
