@@ -12,7 +12,7 @@ import Squares from '@/blocks/Backgrounds/Squares/Squares';
 const socialLinks = [
   {
     platform: 'GitHub',
-    href: 'https://github.com/Hannz45',
+    href: 'https://github.com/Hanbii-Rubii',
     iconPath: '/icons/github_icon.svg',
   },
   {
